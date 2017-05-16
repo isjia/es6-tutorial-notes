@@ -22,6 +22,10 @@
   },
   "homepage": "https://github.com/isjia/es6-tutorial-notes#readme",
   "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
     "browser-sync": "^2.18.11",
     "gitbook-cli": "^2.3.0",
     "gulp": "^3.9.1",
