@@ -1,0 +1,32 @@
+{
+  "name": "es6-tutorial-notes",
+  "version": "1.0.0",
+  "description": "notes for es6 tutorial",
+  "main": "es6.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gitbook build ./notes",
+    "open": "npm run build && open notes/_book/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isjia/es6-tutorial-notes.git"
+  },
+  "keywords": [
+    "es6"
+  ],
+  "author": "iChops",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/isjia/es6-tutorial-notes/issues"
+  },
+  "homepage": "https://github.com/isjia/es6-tutorial-notes#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.11",
+    "gitbook-cli": "^2.3.0",
+    "gulp": "^3.9.1",
+    "gulp-exec": "^2.1.3",
+    "gulp-gh-pages": "^0.5.4",
+    "shelljs": "^0.7.7"
+  }
+}
